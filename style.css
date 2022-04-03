@@ -1,0 +1,21 @@
+body {
+    background-color: #474C5F;
+}
+.content {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    height: 250px;
+}
+button {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#adjust {
+    background-color: white;
+    width: 200px;
+    height: 10px;
+    margin: auto;
+    text-align: center;
+}

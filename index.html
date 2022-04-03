@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<div class="content">
+			<h1 style="position: absolute;">Your score:</h1>
+			<input id="score" value="0" style="position: absolute; top: 80px;" type="letters" readonly>
+			<div id="adjust">
+				<h1 id="result"></h1>
+				<h2 id="option"></h2>
+				<h2 id="botOption"></h2>
+				<button id="rockID" onclick="rock()" type="submit">Rock</button>
+				<button id="paperID" onclick="paper()" type="submit">Paper</button>
+				<button id="scissorsID" onclick="scissors()" type="submit">Scissors</button>
+			</div>
+			<h1 style="position: relative; left: 600px; bottom: 10px;">Bot score:</h1>
+			<input id="botScore" value="0" style="position: relative; bottom: 30px; left: 600px;" type="letters" readonly>
+		</div>
+	</body>
+</html>
